@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  color: White;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: darkBlue;
+}
+
+#signInBox {
+  background-color: Blue;
+  /* height: 50rem; */
+  width: 70rem;
+  margin: 15rem auto;
+  padding: 5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+form {
+  margin: 0 auto;
+}
+
+form label,
+input {
+  display: block;
+  font-size: 3rem;
+  text-align: left;
+}
+
+form input {
+  background-color: Black;
+  border-radius: 1.5rem;
+  border-style: none;
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  width: 100%;
+
+}
+
+input[type="submit"] {
+  background-color: Green;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background-color: darkGreen;
+}
+
+input[type="submit"]:active {
+  background-color: Green;
+}
